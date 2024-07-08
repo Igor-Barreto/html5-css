@@ -4,38 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Giannis-Zographos-South-American-Football-Club-Flamengo.ico" type="image/x-icon">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações / Pré-formatação</h1>
+    <h1>Trabalhando com Listas</h1>
     <hr>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-    <code>
-num = int(input('Digite um número '))
-if num % 2 == 0:
-    print(f'O número {num} é par!')
-else:
-    print (f'O número {num} é impar!')
-print ('Fim do programa')
-    </code>
-    </pre>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!--Tpos: 1, A, a, I, i-->
+        <li>Acordar</li>
+        <li>Ler mensagens</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Trocar de roupas</li>
+        <li>Pegar a bolsa</li>
+        <li>Ir para o ponto</li>
+        <li>Ir pra faculdade</li>
+    </ol>
     <hr>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!--tipos: disc, circle, square-->
+        <li>Pão</li>
+        <li>Carne</li>
+        <li>Queijo</li>
+        <li>Presunto</li>
+        <li>Cereal</li>
+        <li>Iogurte</li>
+    </ul>
     <hr>
-    <h2>Citações completas</h2>
-    <p>Segundo Marly Carril, no seu livro HTML - Passo a Passo:</p>
-    <blockquote cite="https://www.google.com.br/books/edition/Html_Passo_A_Passo/XsRxDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
-        Existem seis níveis de subtítulos que numerados de 1 a 6, sendo o número 1 é o maior destaque.
-    </blockquote>
+    <h2>Juntando listas versão 1.0</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4">
+            <li>Python</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
     <hr>
-    <h2>Abrevições</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou gostando!</p>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Nes</li>
+        <ul>
+            <li>Mario Bros</li>
+            <li>Sonic</li>
+            <li>Adventure Island</li>
+        </ul>
+        <li>Playstation</li>
+        <ul>
+            <li>God of War</li>
+            <ul>
+                <li>God of War I</li>
+                <li>God of war II</li> 
+            </ul>
+            <li>Black</li>
+            <li>Guitar Hero</li>
+        </ul>
+        <li>xbox360</li>
+        <ul>
+            <li>Cod BO2</li>
+            <li>Red Dead Redeption</li>
+            <li>Splinter </li>
+        </ul>
+    </ol>
     <hr>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisa sem html.</bdo></p>
-
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <br>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <br>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
 </body>
 </html>
